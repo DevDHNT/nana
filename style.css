@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Caligrafia';
+    src: url('../font/Madina.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'typed1';
+    src: url('../font/Cursivestandard.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Filxgirl';
+    src: url('../font/Filxgirl.ttf') format('truetype');
+
+}
+
+
+
+
+
+body {
+    background-color: #040303;
+}
+
+.castle {
+    width: 350px;
+    border-radius: 55px;
+    box-shadow: 0px 0px 10px rgba(230, 137, 206, 0.959);
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.h1 {
+    color: #FDFFFC;
+    font-family: Filxgirl;
+    font-size: 33px;
+}
+.h2 {
+    color: #FDFFFC;
+    font-family: Filxgirl;
+}
+
+.typed1{
+    width: 100px;
+    font-family: 'Cursivestandard', sans-serif;
+    white-space: nowrap;
+    color: #5c5456;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video2 {
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.fogo {
+    width: 250px;
+    border-radius: 55px;
+    box-shadow: 0px 0px 10px rgba(230, 137, 206, 0.959);
+    position: absolute;
+    top: 20px; 
+    left: 1590px;
+}
+.typed2{
+    width: 100px;
+    font-family: 'Caligrafia', sans-serif;
+    position: absolute;
+    color: #5c5456;
+    top: 20px; 
+    left: 1450px;
+    font-size: 33px;
+}
+.static-text {
+    display: inline-block;
+}
